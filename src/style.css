@@ -1,0 +1,144 @@
+
+*{
+    box-sizing: border-box;
+    color:#e8eaed;
+    margin: 0;
+}
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+}
+button{
+  background-color: rgb(87, 85, 85);
+  border: none;
+  border-radius: 4px;
+}
+form{
+ input{
+        width: 300px;
+        background-color: rgb(21, 21, 21);
+        border-radius: 4px;
+    }
+  button{
+    margin: 2px;
+  }
+  input{
+    margin-left:2px;
+    margin-right: 2px;
+    margin-bottom: 0;
+  }
+}
+#searchResult{
+    width: 300px;
+    margin-top: -1;
+    margin-left:2px;
+    padding-left: 4px;
+    position: absolute;
+    background-color: grey;
+    border-radius: 8px;
+}
+main{
+  width: 700px;
+}
+.citySearchResult{
+  width: 290px;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+
+.current-weather{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 32px;
+  margin-bottom: 16px;
+  padding: 8px;
+  background-color: rgb(37, 37, 37);
+  border-radius: 8px;
+}
+
+.leftInfo-current {
+
+  display: flex;
+}
+
+.cloud-cover-current {
+  height: 88px;
+  width: 88px;
+
+}
+
+.precipitation-current {
+
+}
+
+.temperature-current {
+  display: flex;
+  align-content: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 12px;
+  font-size: 64px;
+}
+
+.rightInfo-current {
+  font-size: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.humidity-current {
+}
+
+.wind-current {
+}
+
+/* hourly */
+.hours-Slide{
+  display: flex;
+  justify-content: space-between;
+}
+
+.hour-card-hourly {
+  background-color: rgb(21, 21, 21);
+  border-radius: 8px;
+  padding: 8px;
+}
+
+.cloud-cover-hourly {
+  margin-bottom: 2px;
+
+}
+
+.temperature-hourly {
+  margin-bottom: 2px;
+
+}
+
+.precipitation-probability-hourly {
+  margin-bottom: 2px;
+
+}
+
+.wind-hourly {
+  margin-bottom: 2px;
+
+}
+.time-hourly{
+  margin-top: 8px;
+}
+
+.daily-weather{
+}
+.day-weather{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8px;
+  padding:8px;
+  background-color: rgb(31, 31, 31);
+  border-radius: 8px;
+}
